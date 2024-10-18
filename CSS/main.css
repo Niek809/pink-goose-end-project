@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+
+h1 {
+    cursor: default;
+}
+
+h2 {
+    cursor: default;
+}
+
 ::placeholder {
     color: #3D4C5B;
-    ;
 }
 
 a {
@@ -29,6 +37,7 @@ textarea {
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
+    resize: none;
 }
 
 button:hover {
@@ -44,7 +53,6 @@ button:hover {
 
 .body-learn {
     width: 100%;
-    height: 2849px;
     background-color: #0A1117;
 }
 
@@ -126,7 +134,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .logo-header {
@@ -139,6 +147,7 @@ button:hover {
     font-size: 40px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
+    cursor: default;
 }
 
 .name-goose-header {
@@ -147,6 +156,7 @@ button:hover {
     font-weight: bold;
     margin-left: 10px;
     font-family: "Montserrat", sans-serif;
+    cursor: default;
 }
 
 .home-header {
@@ -162,7 +172,6 @@ button:hover {
     color: #fff;
     font-size: 20px;
     margin-top: 41px;
-    margin-left: 30px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
 }
@@ -171,7 +180,6 @@ button:hover {
     color: #fff;
     font-size: 20px;
     margin-top: 41px;
-    margin-left: 30px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
 }
@@ -180,7 +188,6 @@ button:hover {
     color: #fff;
     font-size: 20px;
     margin-top: 41px;
-    margin-left: 30px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
 }
@@ -190,6 +197,7 @@ button:hover {
     height: 104px;
     margin-top: 0%;
     display: flex;
+    gap: 30px;
 }
 
 .container-inlog-header {
@@ -198,13 +206,13 @@ button:hover {
     align-items: center;
     justify-content: center;
     background-color: #243241;
-    margin-left: 65px;
-    margin-right: 65px;
     width: 100px;
     height: 52px;
     border-radius: 16px;
     border: none;
     cursor: pointer;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .inlog-header {
@@ -219,6 +227,7 @@ button:hover {
     font-size: 54px;
     font-weight: bold;
     font-family: "Lato", sans-serif;
+    cursor: default;
 }
 
 .tekst-idea-chat {
@@ -227,6 +236,7 @@ button:hover {
     font-size: 48px;
     font-weight: bold;
     font-family: "Lato", sans-serif;
+    cursor: default;
 }
 
 .idea-contact-chat {
@@ -235,7 +245,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     margin-top: 0%;
-
+    cursor: default;
 }
 
 .social {
@@ -356,6 +366,7 @@ button:hover {
     font-weight: bold;
     font-family: "Lato", sans-serif;
     margin-top: 40px;
+    cursor: default;
 }
 
 .digest-email {
@@ -536,6 +547,7 @@ button:hover {
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     margin-left: -100px;
+    cursor: default;
 }
 
 .footer-tekst-jobs {
@@ -544,6 +556,7 @@ button:hover {
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     margin-left: 50px;
+    cursor: default;
 }
 
 .footer-tekst-legal {
@@ -553,6 +566,7 @@ button:hover {
     font-size: 22px;
     margin-left: 50px;
     margin-right: 150px;
+    cursor: default;
 }
 
 .container-hoofd-index {
@@ -610,7 +624,7 @@ button:hover {
     font-size: 72px;
 }
 
-.home-goose1 {
+.home-goose_small {
     background-color: #0A1117;
     display: flex;
     flex-direction: row;
@@ -623,10 +637,11 @@ button:hover {
 
 }
 
-.home-tekst-goose1 {
+.home-tekst-goose-small {
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-size: 26px;
+    cursor: default;
 }
 
 .home-tekst-started {
@@ -660,6 +675,11 @@ button:hover {
 
 .home-puiltjes-2 {
     display: flex;
+}
+
+.roze_pijltje {
+    width: 13px;
+    height: 20px;
 }
 
 .readyforproject {
@@ -1004,6 +1024,7 @@ select {
     color: #E5E5E5;
     font-size: 54px;
     margin-top: 75px;
+    margin-bottom: 25px;
     font-family: "Lato", sans-serif;
     font-weight: bold;
 }
@@ -1145,6 +1166,7 @@ select {
     display: flex;
     flex-direction: row;
     padding: 10px;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -1155,28 +1177,17 @@ select {
     font-family: "Lato", sans-serif;
 }
 
-.see-all-tekst {
-    color: #8395A7;
-    font-size: 22px;
-    font-weight: bold;
-    font-family: "Montserrat", sans-serif;
-    padding-left: 770px;
-    padding-top: 5px;
-    margin-top: 25px;
-}
-
 .container-press-button {
     cursor: pointer;
     background-color: #0A1117;
     border: none;
     display: flex;
-    gap: 10px;
+    gap: 10px;  
 }
 
 .peltje-see-all {
     width: 15px;
     height: 40px;
-    margin-top: 25px;
 }
 
 .container-press-bloks {
@@ -1197,7 +1208,6 @@ select {
     background-color: #77E6FF;
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 350px;
     height: 382px;
     border-radius: 30px;
@@ -1226,6 +1236,8 @@ select {
     color: #10151A;
     margin-left: 30px;
     margin-top: 15px;
+    cursor: default;
+    height: 140px;
 }
 
 .container-read-button-decrypt {
@@ -1237,8 +1249,6 @@ select {
     border: none;
     cursor: pointer;
     gap: 10px;
-    margin-top: 70px;
-    margin-right: 250px;
 }
 
 .tekst-read-decrypt {
@@ -1257,7 +1267,6 @@ select {
     background-color: #E2C1F9;
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 350px;
     height: 382px;
     border-radius: 30px;
@@ -1288,6 +1297,8 @@ select {
     margin-left: 28px;
     margin-top: 30px;
     margin-right: 28px;
+    cursor: default;
+    height: 125px;
 }
 
 .container-read-button-blokworks {
@@ -1299,8 +1310,6 @@ select {
     border: none;
     cursor: pointer;
     gap: 10px;
-    margin-top: 40px;
-    margin-right: 250px;
 }
 
 .tekst-read-blokworks {
@@ -1319,7 +1328,6 @@ select {
     background-color: #DBE268;
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 350px;
     height: 382px;
     border-radius: 30px;
@@ -1350,6 +1358,8 @@ select {
     margin-left: 28px;
     margin-top: 30px;
     margin-right: 28px;
+    cursor: default;
+    height: 125px;
 }
 
 .container-read-button-techcrunch {
@@ -1361,8 +1371,6 @@ select {
     border: none;
     cursor: pointer;
     gap: 10px;
-    margin-top: 60px;
-    margin-right: 250px;
 }
 
 .tekst-read-techcrunch {
@@ -1401,9 +1409,7 @@ select {
     font-size: 22px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
-    padding-left: 700px;
     padding-top: 5px;
-    margin-top: 25px;
 }
 
 .container-podcast-button {
@@ -1414,14 +1420,8 @@ select {
     gap: 10px;
 }
 
-.peltje-see-all {
-    width: 15px;
-    height: 40px;
-    margin-top: 25px;
-}
-
 .sterretjes-podcast {
-    margin-bottom: -350px;
+    margin-bottom: -250px;
     margin-left: 300px;
 }
 
@@ -1449,6 +1449,8 @@ select {
     border: 2px solid #2A3744;
 }
 
+
+
 .rectangle-img {
     height: 50px;
     width: 50px;
@@ -1464,6 +1466,7 @@ select {
     color: #fff;
     margin-top: 20px;
     margin-left: 20px;
+    cursor: default;
 }
 
 .tekst-press-small {
@@ -1473,14 +1476,27 @@ select {
     color: #E2E2E2;
     margin-top: 20px;
     margin-left: 20px;
+    cursor: default;
 }
 
 .tekst-press-small-name {
+    height: 100px;
     font-size: 17px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: #E2E2E2;
     margin-left: 20px;
+    cursor: default;
+}
+
+.tekst-press-small-name-watch {
+    height: 75px;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #E2E2E2;
+    margin-left: 20px;
+    cursor: default;
 }
 
 .everything-img {
@@ -1512,8 +1528,6 @@ select {
     border: none;
     display: flex;
     gap: 10px;
-    margin-left: 30px;
-    margin-top: 80px;
 }
 
 .container-watch-button {
@@ -1522,8 +1536,6 @@ select {
     border: none;
     display: flex;
     gap: 10px;
-    margin-left: 30px;
-    margin-top: 60px;
 }
 
 .peltje-listen-watch {
@@ -1598,20 +1610,6 @@ select {
     gap: 10px;
 }
 
-.container-press-bloks-about {
-    background-color: #10151A;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 1200px;
-    height: 382px;
-    margin-top: 25px;
-    margin-left: 425px;
-    border-radius: 30px;
-    gap: 28px;
-    border: none;
-}
-
 .body-joke {
     background-color: #0A1117;
     width: 100%;
@@ -1674,6 +1672,7 @@ select {
     color: #10151A;
     margin-top: 13px;
     margin-left: 28px;
+    cursor: default;
 }
 
 .container-contact-heroes {
@@ -1695,3 +1694,21 @@ select {
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
 }
+
+.link-listen {
+    width: 50px;
+    height: auto;
+    margin-left: 25px;
+}
+
+.link-watch {
+    width: 50px;
+    height: auto;
+    margin-left: 25px;
+}
+
+.tussenfooterenhoofd {
+    height: 250px;
+    background-color: #0A1117;
+}
+
