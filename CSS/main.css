@@ -5,7 +5,7 @@
 }
 
 
-h1 {
+h1 { 
     cursor: default;
 }
 
@@ -21,7 +21,7 @@ a {
     text-decoration: none;
 }
 
-body {
+body { /* achtergrond van de pagina */
     background-color: #121E28;
 }
 
